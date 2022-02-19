@@ -1,1 +1,1 @@
-web: gunicorn notes.wsgi --log-file -
+web: gunicorn --bind 127.0.0.1:$PORT app:app
